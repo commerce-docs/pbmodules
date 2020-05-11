@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_PageBuilder:etc/content_type.xsd">
+    <!-- See Magento/PageBuilder/view/adminhtml/pagebuilder/content_type/[CONTENTTYPELC].xml -->
+    <!-- [CONFIG_COMMENT] -->
+    <!-- [REMOVE_COMMENT] -->
+    <type name="[CONTENTTYPELC]">
+        <appearances>
+            <appearance name="full-height"
+                        preview_template="Magento_PageBuilder/content-type/column/full-height/preview"
+                        master_template="Magento_PageBuilder/content-type/column/full-height/master">
+                <elements>
+                    <element name="main">
+                    </element>
+                </elements>
+            </appearance>
+            <appearance name="align-top"
+                        preview_template="Magento_PageBuilder/content-type/column/full-height/preview"
+                        master_template="Magento_PageBuilder/content-type/column/full-height/master">
+                <elements>
+                    <element name="main">
+                    </element>
+                </elements>
+            </appearance>
+            <appearance name="align-center"
+                        preview_template="Magento_PageBuilder/content-type/column/full-height/preview"
+                        master_template="Magento_PageBuilder/content-type/column/full-height/master">
+                <elements>
+                    <element name="main">
+                    </element>
+                </elements>
+            </appearance>
+            <appearance name="align-bottom"
+                        preview_template="Magento_PageBuilder/content-type/column/full-height/preview"
+                        master_template="Magento_PageBuilder/content-type/column/full-height/master">
+                <elements>
+                    <element name="main">
+                    </element>
+                </elements>
+            </appearance>
+        </appearances>
+    </type>
+</config>
