@@ -1,0 +1,19 @@
+{
+  "name": "pbmodules",
+  "version": "1.0.0",
+  "description": "Page Builder command line interface for scaffolding new modules for content types.",
+  "author": "Bruce Denham",
+  "repository": "",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "pbmodules": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "clear": "^0.1.0",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.1.0",
+    "shelljs": "^0.8.4"
+  }
+}
