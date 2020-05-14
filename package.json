@@ -4,7 +4,7 @@
   "description": "Page Builder command line interface for scaffolding new modules for content types.",
   "author": "Adobe, Inc., Bruce Denham (bdenham@adobe.com)",
   "repository": "https://github.com/magento-devdocs/pbmodules",
-  "license": "UNLICENSED",
+  "license": "Apache",
   "main": "index.js",
   "bin": {
     "pbmodules": "index.js"
