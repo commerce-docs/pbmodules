@@ -1,10 +1,10 @@
 {
-  "name": "pbmodules",
-  "version": "1.0.0",
+  "name": "page-builder-modules-scaffolder",
+  "version": "0.0.1",
   "description": "Page Builder command line interface for scaffolding new modules for content types.",
-  "author": "Bruce Denham",
+  "author": "Adobe, Inc., Bruce Denham (bdenham@adobe.com)",
   "repository": "",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "main": "index.js",
   "bin": {
     "pbmodules": "index.js"
