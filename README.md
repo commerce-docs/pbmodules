@@ -9,4 +9,4 @@ This is a CLI for scaffolding both custom and extension modules for Page Builder
 1. Navigate to where you want to create your Page Builder module.
 1. Enter `pbmodules` at the command prompt and follow the instructions.
 
-Details for about this tool will be added soon.
+Details about this tool will be added soon.
