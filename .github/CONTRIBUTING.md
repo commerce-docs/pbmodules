@@ -1,101 +1,36 @@
-# Contributing
+# Contributing to Magento 2 code
 
-We love pull requests from everyone.
+Contributions to the Magento 2 codebase are done using the fork & pull model.
+This contribution model has contributors maintaining their own copy of the forked codebase (which can easily be synced with the main copy). The forked repository is then used to submit a request to the base repository to “pull” a set of changes. For more information on pull requests please refer to [GitHub Help](https://help.github.com/articles/about-pull-requests/).
 
-The following are a set of guidelines to follow when contributing to this project.
+Contributions can take the form of new components or features, changes to existing features, tests, documentation (such as developer guides, user guides, examples, or specifications), bug fixes or optimizations.
 
-## Code of conduct
+The Magento 2 development team will review all issues and contributions submitted by the community of developers in the first in, first out order. During the review we might require clarifications from the contributor. If there is no response from the contributor within two weeks, the pull request will be closed.
 
-This project adheres to the Adobe [code of conduct](CODE_OF_CONDUCT.md). By participating,
-you are expected to uphold this code. Please report unacceptable behavior to
-[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Have a question?
+## Contribution requirements
 
-Start by filing an issue. The existing committers on this project work to reach
-consensus around project direction and issue solutions within issue threads
-(when appropriate).
+1. Contributions must adhere to the [Magento coding standards](https://devdocs.magento.com/guides/v2.2/coding-standards/bk-coding-standards.html).
+2. Pull requests (PRs) must be accompanied by a meaningful description of their purpose. Comprehensive descriptions increase the chances of a pull request being merged quickly and without additional clarification requests.
+3. Commits must be accompanied by meaningful commit messages. Please see the [Magento Pull Request Template](https://github.com/magento/magento2/blob/2.2-develop/.github/PULL_REQUEST_TEMPLATE.md) for more information.
+4. PRs which include bug fixes must be accompanied with a step-by-step description of how to reproduce the bug.
+3. PRs which include new logic or new features must be submitted along with:
+* Unit/integration test coverage.
+* Proposed [documentation](https://devdocs.magento.com) updates. Documentation contributions can be submitted via the [devdocs GitHub](https://github.com/magento/devdocs).
+4. For larger features or changes, please [open an issue](https://github.com/magento/magento2/issues) to discuss the proposed changes prior to development. This may prevent duplicate or unnecessary effort and allow other contributors to provide input.
+5. All automated tests must pass (all builds on [Travis CI](https://travis-ci.org/magento/magento2) must be green).
 
-### Security issues
+## Contribution process
 
-Security issues shouldn't be reported on this issue tracker. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html).
+If you are a new GitHub user, we recommend that you create your own [free github account](https://github.com/signup/free). This will allow you to collaborate with the Magento 2 development team, fork the Magento 2 project and send pull requests.
 
-## Contributor license agreement
+1. Search current [listed issues](https://github.com/magento/magento2/issues) (open or closed) for similar proposals of intended contribution before starting work on a new contribution.
+2. Review and sign the [Contributor License Agreement (CLA)](https://opensource.adobe.com/cla.html) if this is your first time contributing. You only need to sign the CLA once.
+3. Create and test your work.
+4. Fork the Magento 2 repository according to the [Fork A Repository instructions](https://devdocs.magento.com/guides/v2.2/contributor-guide/contributing.html#fork) and when you are ready to send us a pull request – follow the [Create A Pull Request instructions](https://devdocs.magento.com/guides/v2.2/contributor-guide/contributing.html#pull_request).
+5. Once your contribution is received the Magento 2 development team will review the contribution and collaborate with you as needed.
 
-All third-party contributions to this project must be accompanied by a signed contributor
-license agreement. This gives Adobe permission to redistribute your contributions
-as part of the project. [Sign our CLA](http://opensource.adobe.com/cla.html). You
-only need to submit an Adobe CLA one time, so if you have submitted one previously,
-you are good to go!
+## Code of Conduct
 
-## Submitting a contribution
-
-All submissions should come in the form of pull requests and need to be reviewed
-by project committers.
-
-Start by [forking](https://help.github.com/articles/fork-a-repo/) the repo, then [clone](https://help.github.com/articles/cloning-a-repository/) your fork:
-
-```
-git clone git@github.com:yourusername/spectrum-css.git
-```
-
-Set up a branch for your feature or bug fix, push it to your fork, and set up a remote for the upstream repo:
-
-```
-git checkout -b my-awesome-new-feature
-git push -u origin my-awesome-new-feature
-git remote add upstream git@github.com:adobe/spectrum-css.git
-```
-
-Install [yarn](https://yarnpkg.com/en/docs/install):
-
-```
-brew install yarn || curl -o- -L https://yarnpkg.com/install.sh | bash
-```
-
-Make sure the [gulp-cli](https://github.com/gulpjs/gulp-cli) is installed globally:
-
-```
-yarn global add gulp-cli
-```
-
-Install dependencies:
-
-```
-yarn install
-```
-
-Build the project, open a livereloading browser window, and watch for changes:
-
-```
-gulp dev
-```
-
-Commit changes with a [conventional commit message](https://www.conventionalcommits.org), making sure to correctly use `feat:`, `fix:`, and `BREAKING CHANGE` accordingly, and referencing the relevant issue number (if any):
-
-```
-git commit -m "fix: calendar rendering issue in Safari, fixes #252"
-```
-
-Make sure your branch is up to date with the original repo:
-
-```
-git fetch upstream
-git merge upstream/master
-```
-
-Review your changes and any possible conflicts and push to your fork:
-
-```
-git push origin
-```
-
-[Submit a pull request](https://help.github.com/articles/creating-a-pull-request/).
-
-At this point you're waiting on us. We do our best to keep on top of all the pull requests. We may suggest some changes, improvements or alternatives.
-
-Some things that will increase the chance that your pull request is accepted:
-
-- Write a good pull request description, include screenshots, and test your changes across all evergreen browsers (and IE 11, sadly)
-- Make sure the PR merges cleanly with the latest master.
-- Describe your feature/bugfix and why it's needed/important in the pull request description.
+Please note that this project is released with a Contributor Code of Conduct. We expect you to agree to its terms when participating in this project.
+The full text is available in the repository [Wiki](https://github.com/magento/magento2/wiki/Magento-Code-of-Conduct).
