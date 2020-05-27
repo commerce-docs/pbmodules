@@ -14,9 +14,11 @@
 Two examples of using `pbmodules` are shown here. The first example shows extending a Page Builder Banner. The second shows creating a new custom content type:
 
 ![pbmodule questions](pbmodules_extension.png "pbmodules example questions, banner extension")
+
 _Example Banner extension module_
 
 ![pbmodule questions](pbmodules_custom.png "pbmodules example questions, custom")
+
 _Example custom content type module_
 
 
