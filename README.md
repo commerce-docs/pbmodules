@@ -15,10 +15,10 @@ Two examples of using `pbmodules` are shown here. The first example shows extend
 
 ![pbmodule questions](pbmodules_extension.png "pbmodules example questions, banner extension")
 
-_Example Banner extension module_
+_Create Banner extension module_
 
 ![pbmodule questions](pbmodules_custom.png "pbmodules example questions, custom")
 
-_Example custom content type module_
+_Create custom content type module_
 
 
