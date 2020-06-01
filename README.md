@@ -13,10 +13,10 @@
 
 Two examples of using `pbmodules` are shown here. The first example shows extending a Page Builder Banner. The second shows creating a new custom content type:
 
-![Page Builder Custom Module](pagebuilder-extension.gif "Creating an extension module")
+![Page Builder Custom Module](pb-extension.gif "Creating an extension module")
 
 _Create custom content type module_
 
-![Page Builder Custom Module](pagebuilder-custom.gif "Creating a custom module")
+![Page Builder Custom Module](pb-custom.gif "Creating a custom module")
 
 _Create custom content type module_
