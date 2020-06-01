@@ -24,15 +24,14 @@ const start = async () => {
         const {vendor, templateType, contentType} = moduleAnswers;
 
         placeholders.setupPlaceholders(moduleAnswers, vendor, contentType);
-
         files.copyTemplate(vendor, templateType, contentType);
         files.replaceFileNamePlaceholders(moduleAnswers);
         files.replaceFileContentPlaceholders(moduleAnswers);
-
     } catch (e) {
-        console.error(e);
+        console.log(`${chalk.red('Please correct the following errors noted above and try again.')}`);
+        console.error(`${chalk.red(e)}`);
     } finally {
-        console.log('✔ Page Builder module complete!')
+        console.log(`${chalk.white('✔ Page Builder module complete!')}`);
     }
 };
 
