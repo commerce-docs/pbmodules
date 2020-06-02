@@ -23,7 +23,7 @@ To scaffold an extension module, select the **Extend** option from the first que
 
 - **Enter your module description**: This is optional, but a simple default is provided. The module description is only used in the module's `composer.json`, which can be changed easily enough.
 
-### Extension example
+### Extension module example
 This example shows how to create a Page Builder skeleton module that extends the Page Builder Banner:
 
 ![Page Builder Custom Module](pb-extension.gif "Creating an extension module")
@@ -42,7 +42,7 @@ To scaffold a custom module, select the **Custom** option from the first questio
 
 - **Enter your module description**: This is optional, but a simple default is provided. The module description is only used in the module's `composer.json`, which can be changed easily enough.
 
-### Custom example
+### Custom module example
 
 This example shows how to create a custom Page Builder skeleton module using the defaults:
 
@@ -59,8 +59,30 @@ As with all Magento modules, to install your new skeleton module:
    bin/magento setup:upgrade
    ```
 
+### Custom module installed
+
+After installing the custom module, you're Page Builder panel should look something like this:
+
+![Custom module panel](custom-module-panel.png "Custom module in panel")
+
+By default, the scaffolding CLI adds your custom module to the Layout section of the panel. You can move your content type to a different section of the panel by editing the `menu_section` of your configuration file, replacing `layout` with `elements`, `media`, or `add_content` (or your own section):
+
+```xml
+<type name="myvendor_mycontenttype"
+          label="My Content Type"
+          menu_section="layout"
+          ...
+          >
+```
+
+The custom module skeleton comes with a simple form input field that shows how bindings connect the form to the configuration and finally to the template. This field is meant for teaching purposes only and can be removed as needed.
+
+After install, your custom content type form should look like this:
+
+![Custom module form](custom-module-form.png "Custom module form")
+
 ## Feedback
-We encourage and welcome you to help us keep these examples current by submitting pull requests and issues.  We also welcome your feedback and ideas on other code examples you would like to see added to this repo.
+We encourage and welcome you to help us improve this tool by submitting pull requests and issues.  We also welcome your feedback and ideas on other Page Builder tools and resources you would like to help improve your Page Builder development experience.
 
 ## Slack
 You can join our #pagebuilder channel, within magentocommeng.slack.com, to post your questions to the Page Builder community.
