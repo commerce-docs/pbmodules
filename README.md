@@ -23,8 +23,8 @@ To scaffold an extension module, select the **Extend** option from the first que
 
 - **Enter your module description**: This is optional, but a simple default is provided. The module description is only used in the module's `composer.json`, which can be changed easily enough.
 
-### Extension module example
-This example shows how to create a Page Builder skeleton module that extends the Page Builder Banner:
+### Extended content type example
+This example shows how to create a Page Builder starter module that extends the Page Builder Banner. It also shows the directories and files created.
 
 ![Page Builder Custom Module](pb-extension.gif "Creating an extension module")
 
@@ -42,18 +42,18 @@ To scaffold a custom module, select the **Custom** option from the first questio
 
 - **Enter your module description**: This is optional, but a simple default is provided. The module description is only used in the module's `composer.json`, which can be changed easily enough.
 
-### Custom module example
+### Custom content type example
 
-This example shows how to create a custom Page Builder skeleton module using the defaults:
+This example shows how to create a custom Page Builder starter module using the defaults. It also shows the directories and files created.
 
 ![Page Builder Custom Module](pb-custom.gif "Creating a custom module")
 
-## Installing the skeleton modules
+## Installing the starter modules
 
-As with all Magento modules, to install your new skeleton module:
+As with all Magento modules, to install your starter module:
 
 1. Add your vendor-module directory to the `app/code/` directory of your Magento installation.
-1. Navigate to your magento root directory, and run:
+2. Navigate to your magento root directory, and run:
 
    ```bash
    bin/magento setup:upgrade
@@ -61,7 +61,7 @@ As with all Magento modules, to install your new skeleton module:
 
 ### Custom module installed
 
-After installing the custom module, you're Page Builder panel should look something like this:
+After installing your custom content type starter module, your Page Builder panel should look something like this:
 
 ![Custom module panel](custom-module-panel.png "Custom module in panel")
 
@@ -75,7 +75,7 @@ By default, the scaffolding CLI adds your custom module to the Layout section of
           >
 ```
 
-The custom module skeleton comes with a simple form input field that shows how bindings connect the form to the configuration and finally to the template. This field is meant for teaching purposes only and can be removed as needed.
+The custom content type starter module comes with a simple form input field that shows how bindings connect the form to the configuration and finally to the template. This field is meant for teaching purposes only and can be removed as needed.
 
 After install, your custom content type form should look like this:
 
