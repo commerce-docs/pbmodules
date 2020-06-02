@@ -59,7 +59,7 @@ As with all Magento modules, to install your starter module:
    bin/magento setup:upgrade
    ```
 
-### Custom content type installed
+## After installation
 
 After installing your custom content type starter module, your Page Builder panel should look something like this:
 
@@ -75,9 +75,7 @@ By default, the scaffolding CLI adds your custom module to the **Layout** sectio
           >
 ```
 
-The custom content type starter module comes with a simple form input field that shows how bindings connect the form to the configuration and finally to the template. This field is meant for teaching purposes only and can be removed as needed.
-
-After install, your custom content type form should look like this:
+The custom content type starter module comes with a simple form input field that shows how bindings connect the form to the configuration and finally to the template. This field is meant for teaching purposes only and can be removed as needed. The default field looks like this:
 
 ![Custom module form](custom-module-form.png "Custom module form")
 
