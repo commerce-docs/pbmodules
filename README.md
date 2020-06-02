@@ -1,6 +1,6 @@
 # Scaffolding CLI for Page Builder modules
 
-`pbmodules` is a CLI for scaffolding both custom and extension modules for Page Builder content types.
+`pbmodules` is a scaffolding CLI for creating both custom and extension starter modules for Page Builder content types.
 
 ## Usage
 1. Clone or download this repo.
@@ -11,9 +11,9 @@
 
 > TIP: After installing pbmodules globally, we recommend navigating to the `app/code/` directory of your magento instance and run `pbmodules` there. If you do this, you can run `bin/magento setup:upgrade` to install the new module and begin using / developing it immediately. You can be up and running with a variety of Page Builder modules within minutes.
 
-## Scaffolding Page Builder extension modules
+## Scaffolding extension modules
 
-To scaffold an extension module, select the **Extend** option from the first question and follow the instructions.
+To create a starter module for _extending_ a content type, select the **Extend** option from the first question and follow the instructions.
 
 - **Choose a Page Builder content type to extend**: You can choose from a list of Page Builder's native content types, including, `column-groups`, `button-items`, and `tab-items`, and `slide`.
 
@@ -28,9 +28,9 @@ This example shows how to create a Page Builder starter module that extends the 
 
 ![Page Builder Custom Module](pb-extension.gif "Creating an extension module")
 
-## Scaffolding Page Builder custom modules
+## Scaffolding custom modules
 
-To scaffold a custom module, select the **Custom** option from the first question and follow the instructions.
+To create a starter module for a _custom content type_, select the **Custom** option from the first question and follow the instructions.
 
 - **Enter custom name**: This is name for your custom content type name. It should be capitalized and only one word if possible. If you need to use two words, use PascalCase to name it.
 
@@ -59,13 +59,13 @@ As with all Magento modules, to install your starter module:
    bin/magento setup:upgrade
    ```
 
-### Custom module installed
+### Custom content type installed
 
 After installing your custom content type starter module, your Page Builder panel should look something like this:
 
 ![Custom module panel](custom-module-panel.png "Custom module in panel")
 
-By default, the scaffolding CLI adds your custom module to the Layout section of the panel. You can move your content type to a different section of the panel by editing the `menu_section` of your configuration file, replacing `layout` with `elements`, `media`, or `add_content` (or your own section):
+By default, the scaffolding CLI adds your custom module to the **Layout** section of the panel. You can move your content type to a different section of the panel by editing the `menu_section` of your configuration file, replacing `layout` with `elements`, `media`, or `add_content` (or your own section):
 
 ```xml
 <type name="myvendor_mycontenttype"
