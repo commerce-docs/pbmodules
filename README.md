@@ -9,7 +9,7 @@
 1. Navigate to where you want to create your Page Builder module (see TIP below).
 1. Enter `pbmodules` at the command prompt and follow the instructions.
 
-> TIP: After installing pbmodules globally, we recommend navigating to the `app/code/` directory of your magento instance and run `pbmodules` there. If you do this, you can run `bin/magento setup:upgrade` to install the new module and begin using / developing it immediately. You can be up and running with a variety of Page Builder modules within minutes.
+> TIP: After installing `pbmodules` globally, we recommend navigating to the `app/code/` directory of your magento instance and running the `pbmodules` command there. This makes it easy to immediately install the starter module (`bin/magento setup:upgrade`) and begin developing a variety of Page Builder modules within minutes.
 
 ## Scaffolding extension modules
 
@@ -30,7 +30,7 @@ This example shows how to create a Page Builder starter module that extends the 
 
 ## Scaffolding custom modules
 
-To create a starter module for a _custom content type_, select the **Custom** option from the first question and follow the instructions.
+To create a starter module for creating a _custom content type_, select the **Custom** option from the first question and follow the instructions.
 
 - **Enter custom name**: This is name for your custom content type name. It should be capitalized and only one word if possible. If you need to use two words, use PascalCase to name it.
 
