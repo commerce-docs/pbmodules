@@ -80,7 +80,7 @@ The custom content type starter module comes with a simple form input field that
 ![Custom module form](custom-module-form.png "Custom module form")
 
 ## Feedback
-We encourage and welcome you to help us improve this tool by submitting pull requests and issues.  We also welcome your feedback and ideas on other Page Builder tools and resources you would like to help improve your Page Builder development experience.
+We encourage and welcome you to help us improve this tool by submitting pull requests and issues.  We also welcome your feedback and ideas on other Page Builder tools and resources that would help improve your Page Builder development experience.
 
 ## Slack
 You can join our #pagebuilder channel, within magentocommeng.slack.com, to post your questions to the Page Builder community.
