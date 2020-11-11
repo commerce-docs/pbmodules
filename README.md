@@ -3,13 +3,12 @@
 `pbmodules` is a scaffolding CLI for creating both custom and extension starter modules for Page Builder content types.
 
 ## Usage
-1. Clone or download this repo.
-1. CD into the `pbmodules` directory and run `npm install` to download package dependencies.
-1. Run `npm install -g pbmodules` to install the scaffolding CLI globally.
-1. Navigate to where you want to create your Page Builder module (see TIP below).
-1. Enter `pbmodules` at the command prompt and follow the instructions.
 
-> TIP: After installing `pbmodules` globally, we recommend navigating to the `app/code/` directory of your magento instance and running the `pbmodules` command there. This makes it easy to immediately install the starter module (`bin/magento setup:upgrade`) and begin developing a variety of Page Builder modules within minutes.
+Navigate to `<magento-instance-root>/app/code/` directory and run the following command:
+
+```bash
+npx https://github.com/magento-devdocs/pbmodules.git
+```
 
 ## Scaffolding extension modules
 
