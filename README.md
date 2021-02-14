@@ -4,7 +4,7 @@
 
 ## Usage
 
-Navigate to `<magento-instance-root>/app/code/` directory and run the following command:
+Navigate to your `<magento-instance-root>/app/code/` directory and run the following command:
 
 ```bash
 npx https://github.com/magento-devdocs/pbmodules.git
