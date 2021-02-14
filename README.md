@@ -10,7 +10,7 @@ Navigate to your `<magento-instance-root>/app/code/` directory and run the follo
 npx https://github.com/magento-devdocs/pbmodules.git
 ```
 
-Then follow the on-screen instructions. The details are provided below.
+Then follow the on-screen prompts. Details about each prompt are provided below.
 
 ## Scaffolding extension modules
 
