@@ -10,6 +10,8 @@ Navigate to your `<magento-instance-root>/app/code/` directory and run the follo
 npx https://github.com/magento-devdocs/pbmodules.git
 ```
 
+Then follow the on-screen instructions. The details are provided below.
+
 ## Scaffolding extension modules
 
 To create a starter module for _extending_ a content type, select the **Extend** option from the first question and follow the instructions.
