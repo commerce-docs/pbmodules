@@ -1,4 +1,5 @@
-# Scaffolding CLI for Page Builder modules
+# PB Modules! 
+## A scaffolding CLI for creating Page Builder modules
 
 `pbmodules` is a scaffolding CLI for creating both custom and extension starter modules for Page Builder content types.
 
