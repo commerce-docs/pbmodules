@@ -7,7 +7,7 @@ PB Modules is a scaffolding CLI for creating both custom and extension starter m
 Navigate to your `<magento-instance-root>/app/code/` directory and run the following command:
 
 ```bash
-npx https://github.com/magento-devdocs/pbmodules.git
+npx https://github.com/commerce-docs/pbmodules.git
 ```
 
 Then follow the on-screen prompts. Details about each prompt are provided below.
