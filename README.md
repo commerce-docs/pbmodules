@@ -16,7 +16,7 @@ Then follow the on-screen prompts. Details about each prompt are provided below.
 
 To create a starter module for _extending_ a content type, select the **Extend** option from the first question and follow the instructions.
 
-- **Choose a Page Builder content type to extend**: You can choose from a list of Page Builder's native content types, including, `column-groups`, `button-items`, and `tab-items`, and `slide`.
+- **Choose a Page Builder content type to extend**: You can choose from a list of Page Builder's native content types, including, `banner`, `block`, `button-item`, `button`, `column`, `column-group`, `custom`, `divider`,  `heading`, `html`, `image`, `map`, `products`, `row`, `slide`, `slider`, `tab-item`, `tabs`, `text` and `video`.
 
 - **Enter your vendor name**: The vendor name is usually and abbreviated company name that serves as a namespace for your module and content type. It should be one word, a capitalized abbreviation. If it must be more than one word, use PascalCase.
 
